@@ -1,0 +1,66 @@
+/* 
+COLOR PALETTE
+#36393B-Onyx
+#A5D8FF-Uranian blue
+#FEFEFF-Radical Red
+#2B50AA-Cerulean blue
+#99E1D9-Middle blue green
+*/
+
+
+
+/*Global Styles
+---------------------------------------*/
+body {
+    color:#36393B;
+}
+img {
+    width:300px;
+}
+a {
+    color:#FF1053
+}
+a:hover {
+    text-decoration: none;
+}
+
+/*Profile
+---------------------------------------*/
+header {
+    background: #2b50aa;
+    color: white;
+}
+
+/*Projects
+---------------------------------------*/
+.projects {
+    background: #99E1D9 ;
+}
+.projects a{
+    color: #2b50aa;
+}
+.projects .btn{
+    color: #f7fff7;
+    background: #2b50aa;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover {
+    background: rgba(43, 80 , 170, 80%);
+}
+/*Work Experience
+---------------------------------------*/
+.work-experience {
+    background: #A5d8ff;
+}
+
+/*Education
+---------------------------------------*/
+
+
+/*Contact Info
+---------------------------------------*/
+footer {
+    background-color: #36393B;
+}
