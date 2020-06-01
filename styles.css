@@ -11,8 +11,20 @@ COLOR PALETTE
 
 /*Global Styles
 ---------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     color:#36393B;
+    margin: 0;
+    padding: 0;
+    font-family: 'Monterrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 img {
     width:300px;
@@ -23,6 +35,26 @@ a {
 a:hover {
     text-decoration: none;
 }
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+h2 {
+    font-size:45px;
+}
+h1,h2, h3 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+h3 {
+    text-align: center;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
 
 /*Profile
 ---------------------------------------*/
@@ -30,7 +62,20 @@ header {
     background: #2b50aa;
     color: white;
 }
-
+header h1, header h2 {
+    color: gold;
+    font-family: 'Caveat', cursive;
+}
+header h1 {
+    width: 4em;
+    word-break: break-word;
+    display: inline-block;
+}
+header h2 {
+    display: inline-block; 
+    position: relative;
+    bottom: 110px;
+}
 /*Projects
 ---------------------------------------*/
 .projects {
@@ -45,9 +90,25 @@ header {
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 .projects .btn:hover {
     background: rgba(43, 80 , 170, 80%);
+}
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #36393B;
+    padding: 25px 0;
+}
+.project-item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.project-item h3 {
+    margin-top: 0;
 }
 /*Work Experience
 ---------------------------------------*/
