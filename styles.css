@@ -62,6 +62,7 @@ header {
     background: #2b50aa;
     color: white;
 }
+
 header h1, header h2 {
     color: gold;
     font-family: 'Caveat', cursive;
@@ -76,6 +77,79 @@ header h2 {
     position: relative;
     bottom: 110px;
 }
+/*Nav Menu
+---------------------------------------*/
+/* Navbar background */
+.navMenu {
+    background: #2b50aa;
+    color: white;
+}
+/* Changes Navbar size and color */
+.navMenu a {
+	text-decoration: none; 
+	color: #fff; 
+    padding: 25px 20px; 
+}
+
+/* Remove Bullets */
+.navMenu ul {
+	list-style: none; 
+}
+/* Changes background color, position and adds border*/
+.navMenu ul li {
+	position: relative;
+	display: inline-block; 
+	background: #99E1D9; 
+	padding: 40px 10px;
+    font: bold 18px;
+    font-family: 'Pacifico', cursive;
+    margin-right: -4px;
+    text-align: left;
+    border-right: 1px dashed #36393B;
+    left: 25px;
+    
+}
+/* Removes dash border from right*/
+.navMenu ul li:last-child {
+    border-right: none;
+}
+/* Changes hover color */
+.navMenu ul li:hover {
+    background: #2b50aa; 
+    
+}
+/* Sub menus on screen */
+.navMenu ul li:hover ul {
+    left: 0; 
+    
+}
+/* Submenu off screen */
+.navMenu ul li ul {
+
+	position: absolute;
+	left: -99999px;  
+	width: 200%;
+	top: 102px;
+    padding: 0;
+}
+/* Displays sub menu as block */
+.navMenu ul li ul li {
+	display: block; 
+    background: #99E1D9;
+    border-bottom: 1px dashed #36393B;
+    border-right: none;
+    left: 0px;
+}
+/* Remove dash border from bottom*/
+.navMenu ul li ul li:last-child {
+    border-bottom: none;
+}
+/* Sub menu hover color */
+.navMenu ul li ul li:hover {
+	background: #2b50aa;
+	
+}
+
 /*Projects
 ---------------------------------------*/
 .projects {
